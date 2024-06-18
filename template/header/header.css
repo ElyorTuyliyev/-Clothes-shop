@@ -15,7 +15,7 @@ li {
 }
 
 .container {
-  max-width: 1290px;
+  max-width: 1170px;
   width: 100%;
   margin: 0 auto;
   padding: 0 10px;
@@ -43,14 +43,59 @@ li {
 .header__links {
   color: #6c6c6c;
   padding: 39.3px 0;
+  transition: 0.2s;
   font-family: Josefin Sans;
   font-weight: 700;
   font-size: 14px;
   color: #252525;
+  position: relative;
 }
 
 .header__link-home-bc {
   color: #09c6ab;
+}
+
+.header__links:hover {
+  color: #09c6ab;
+}
+
+.header__links-hidden-wrapper {
+  max-width: 220px;
+  height: 0;
+  width: 100%;
+  position: absolute;
+  background-color: #252525;
+  top: 95px;
+  padding: 24px;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.header__links:hover + .header__links-hidden-wrapper,
+.header__links-hidden-wrapper:hover {
+  height: 360px;
+  opacity: 1;
+}
+
+.header__link-hidden {
+  font-family: Josefin Sans;
+  font-weight: 400;
+  font-size: 12px;
+  color: #ffffff;
+  text-transform: uppercase;
+  line-height: 32px;
+  display: block;
+  transition: 0.2s;
+}
+
+.header__link-hidden:hover {
+  color: #09c6ab;
+}
+
+.header__line {
+  width: 1px;
+  height: 93px;
+  background-color: #ebebeb;
 }
 
 .header__shops {
