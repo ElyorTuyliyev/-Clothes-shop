@@ -6,9 +6,60 @@
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
 .container {
   max-width: 1290px;
   width: 100%;
   margin: 0 auto;
-  padding: 10px;
+  padding: 0 10px;
+}
+
+.header__wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__links-list-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header__links-list {
+  height: 94px;
+  display: flex;
+  align-items: center;
+}
+
+.header__links {
+  color: #6c6c6c;
+  padding: 39.3px 0;
+  font-family: Josefin Sans;
+  font-weight: 700;
+  font-size: 14px;
+  color: #252525;
+}
+
+.header__link-home-bc {
+  color: #09c6ab;
+}
+
+.header__shops {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.main {
+  background-color: #f4f8ee;
+  height: 100vh;
 }/*# sourceMappingURL=header.css.map */
