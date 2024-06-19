@@ -112,6 +112,10 @@ li {
   font-style: italic;
 }
 
+.header__link-hidden-shop:hover {
+  color: #09c6ab;
+}
+
 .header__link-shop-title {
   margin: 10px 0;
   font-family: Josefin Sans;
