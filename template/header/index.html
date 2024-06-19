@@ -185,18 +185,13 @@
             <div class="header__line"></div>
             <div class="header__shops">
               <div class="header__search-link" onclick="searchOnclick()">
-                <a href="#">
-                  <img src="../../imgs/icon-search.png" alt="icon-search" />
-                </a>
-                <div
-                  id="header__search-onclick"
-                  class="header__search-hidden-wrapper"
-                >
-                  <div class="header__search-home">
+                <img src="../../imgs/icon-search.png" alt="icon-search" />
+                <div class="header__search-hidden-wrapper">
+                  <div id="header__search-onclick" class="header__search-home">
                     <input
                       class="header__search-hidden-input"
                       type="text"
-                      placeholder="Search entire store here ..."
+                      placeholder="Search entire store here . . ."
                     />
                     <button class="header__search-hidden-button">
                       <i class="fa-solid fa-magnifying-glass"></i>
@@ -205,20 +200,23 @@
                 </div>
               </div>
               <div class="header__bars-link">
-                <a href="#">
+                <button id="header__bars-btn" onclick="hideBarsMenu()">
                   <img src="../../imgs/icon-bars.png" alt="icon-bars" />
-                </a>
-                <div class="header__bars-link-wrapper">
+                </button>
+                <div
+                  id="header__bars-link-home"
+                  class="header__bars-link-wrapper"
+                >
                   <a href="#">MY ACCOUNT</a>
                   <a href="#">SHOPPING CART</a>
                   <a href="#">CHECKOUT</a>
                   <div class="bars__line"></div>
-                  <h4 class="hedaer__bars-title">CURRENCY</h4>
+                  <h4 class="header__bars-title">CURRENCY</h4>
                   <a href="#">EURO</a>
                   <a href="#">POUND STERLING</a>
                   <a href="#">US DOLLAR </a>
                   <div class="bars__line"></div>
-                  <h4 class="hedaer__bars-title">LANGUAGE</h4>
+                  <h4 class="header__bars-title">LANGUAGE</h4>
                   <a href="#">
                     <img src="../../imgs/language-Eng.png" alt="language-Eng" />
                     ENGLISH</a

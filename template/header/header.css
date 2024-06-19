@@ -73,6 +73,7 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  overflow: hidden;
 }
 
 .header__links:hover + .header__links-hidden-wrapper {
@@ -109,6 +110,10 @@ li {
   text-transform: uppercase;
   color: #929292;
   font-style: italic;
+}
+
+.header__link-hidden-shop:hover {
+  color: #09c6ab;
 }
 
 .header__link-shop-title {
@@ -152,20 +157,25 @@ li {
 
 .header__search-hidden-wrapper {
   position: absolute;
-  top: 65px;
+  top: 60px;
   left: -250px;
-  display: none;
+  height: 0;
 }
 
 .header__search-home {
+  transition: 0.3s;
+  height: 45.5px;
+  height: 0;
+  opacity: 1;
   position: relative;
+  overflow: hidden;
 }
 
 .header__search-hidden-input {
-  max-width: 400px;
-  width: 100%;
+  width: 250px;
   background-color: #252525;
-  padding: 15px 80px 15px 15px;
+  height: 100%;
+  padding: 10px;
   border: none;
   outline: none;
   font-family: Josefin Sans;
@@ -185,7 +195,8 @@ li {
 .header__search-hidden-button {
   position: absolute;
   right: 0;
-  padding: 11.5px;
+  padding: 0 19px;
+  height: 100%;
   font-size: 19px;
   border: none;
   background-color: #09c6ab;
@@ -197,13 +208,25 @@ li {
   color: #fff;
 }
 
+#header__bars-btn {
+  border: none;
+  background-color: transparent;
+}
+
 .header__bars-link-wrapper {
   position: absolute;
   background-color: #252525;
-  padding: 20px;
+  height: 0;
+  padding: 0 20px;
   left: -180px;
   top: 70px;
-  display: none;
+  transition: 0.7s;
+  visibility: hidden;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
 .header__bars-link-wrapper a {
   font-family: Josefin Sans;
@@ -218,7 +241,7 @@ li {
   color: #09c6ab;
 }
 
-.hedaer__bars-title {
+.header__bars-title {
   padding: 5px 0;
   font-family: Josefin Sans;
   font-weight: 400;
