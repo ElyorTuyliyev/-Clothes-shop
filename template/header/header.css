@@ -1,3 +1,26 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
 .header__wrapper {
   width: 100%;
   display: flex;
@@ -21,7 +44,10 @@
   color: #6c6c6c;
   padding: 39.3px 0;
   transition: 0.2s;
-  @include textStyle(14px, 700, Josefin Sans, #252525);
+  font-family: Josefin Sans;
+  font-weight: 700;
+  font-size: 14px;
+  color: #252525;
   position: relative;
   z-index: 999;
 }
@@ -76,7 +102,10 @@
 }
 
 .header__link-hidden-shop {
-  @include textStyle(12px, 400, Josefin Sans, #ffffff);
+  font-family: Josefin Sans;
+  font-weight: 400;
+  font-size: 12px;
+  color: #ffffff;
   line-height: 30px;
   text-transform: uppercase;
   color: #929292;
@@ -89,11 +118,17 @@
 
 .header__link-shop-title {
   margin: 10px 0;
-  @include textStyle(12px, 400, Josefin Sans, #ffffff);
+  font-family: Josefin Sans;
+  font-weight: 400;
+  font-size: 12px;
+  color: #ffffff;
 }
 
 .header__link-hidden {
-  @include textStyle(12px, 400, Josefin Sans, #ffffff);
+  font-family: Josefin Sans;
+  font-weight: 400;
+  font-size: 12px;
+  color: #ffffff;
   text-transform: uppercase;
   line-height: 32px;
   display: block;
@@ -143,7 +178,14 @@
   padding: 10px;
   border: none;
   outline: none;
-  @include textStyle(14px, 400, Josefin Sans, #ffffff);
+  font-family: Josefin Sans;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.header__search-hidden-input::-moz-placeholder {
+  color: #ffffff;
 }
 
 .header__search-hidden-input::placeholder {
@@ -185,20 +227,26 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  a {
-    @include textStyle(12px, 400, Josefin Sans, #aaa);
-    line-height: 30px;
-    display: block;
-    transition: 0.3s;
-  }
-  a:hover {
-    color: #09c6ab;
-  }
+}
+.header__bars-link-wrapper a {
+  font-family: Josefin Sans;
+  font-weight: 400;
+  font-size: 12px;
+  color: #aaa;
+  line-height: 30px;
+  display: block;
+  transition: 0.3s;
+}
+.header__bars-link-wrapper a:hover {
+  color: #09c6ab;
 }
 
 .header__bars-title {
   padding: 5px 0;
-  @include textStyle(14px, 400, Josefin Sans, #fff);
+  font-family: Josefin Sans;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
 }
 
 .bars__line {
@@ -206,4 +254,4 @@
   height: 0.5px;
   background-color: #bebebe;
   margin: 15px 0;
-}
+}/*# sourceMappingURL=header.css.map */
