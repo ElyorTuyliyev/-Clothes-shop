@@ -344,9 +344,46 @@ li {
 }
 
 .shop__box-text-wrapper {
+  max-width: 250px;
+  width: 100%;
   position: absolute;
-  top: 300px;
-  background-color: rgba(255, 255, 255, 0.763);
+  bottom: 100px;
+  transform: translateX(70px);
+  background-color: rgba(255, 255, 255, 0.845);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+  transition: 0.5s;
+}
+
+.shop__box-wrapper {
+  cursor: pointer;
+}
+
+.shop__box-wrapper:hover .shop__box-text-wrapper {
+  transform: translateY(-10px) translateX(70px);
+}
+
+.shop__box-title {
+  font-family: Josefin Sans;
+  font-weight: 700;
+  font-size: 34px;
+  color: #252525;
+  padding: 0 0 10px 0;
+}
+
+.shop__box-text {
+  font-family: Josefin Sans;
+  font-weight: 500;
+  font-size: 20px;
+  color: #252525;
+  padding: 0 0 10px 0;
+  font-style: italic;
+}
+.shop__box-text span {
+  color: #09c6ab;
 }
 
 *,
