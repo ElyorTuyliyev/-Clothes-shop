@@ -1,250 +1,356 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product Details</title>
-    <link rel="stylesheet" href="./sass/style.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./sass/style.css" />
+  </head>
+  <body>
     <header class="header">
-        <nav class="nav">
-          <div class="container">
-            <div class="header__wrapper">
-              <a href="#">
-                <img
-                  class="header__logo-img"
-                  src="../../imgs/header-logo.png"
-                  alt="shop-logo"
-                />
-              </a>
-              <ul class="header__links-list-wrapper">
-                <li class="header__links-list">
-                  <a class="header__links header__link-home-bc" href="#"
-                    >HOME <i class="fa fa-angle-down"></i>
-                  </a>
-                  <ul class="header__links-hidden-wrapper">
-                    <li class="header__link-li">
-                      <a class="header__link-hidden" href="#">home shop 1 </a>
-                    </li>
-  
-                    <li class="header__link-li">
-                      <a class="header__link-hidden" href="#">home shop 2 </a>
-                    </li>
-  
-                    <li class="header__link-li">
-                      <a class="header__link-hidden" href="#">home shop 3 </a>
-                    </li>
-  
-                    <li class="header__link-li">
-                      <a class="header__link-hidden" href="#">home shop 4 </a>
-                    </li>
-  
-                    <li class="header__link-li">
-                      <a class="header__link-hidden" href="#">home shop 5 </a>
-                    </li>
-  
-                    <li class="header__link-li">
-                      <a class="header__link-hidden" href="#">home shop 6 </a>
-                    </li>
-  
-                    <li class="header__link-li">
-                      <a class="header__link-hidden" href="#">home shop 7 </a>
-                    </li>
-  
-                    <li class="header__link-li">
-                      <a class="header__link-hidden" href="#">home shop 8 </a>
-                    </li>
-                    <li class="header__link-li">
-                      <a class="header__link-hidden" href="#">home shop 9 </a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="header__links-list">
-                  <a class="header__links" href="#"
-                    >SHOP <i class="fa fa-angle-down"></i>
-                  </a>
-                  <div
-                    class="header__links-hidden-wrapper header__links-hidden-shop-wrapper"
-                  >
-                    <div class="header__link-shop">
-                      <a href="#" class="header__link-shop-title"
-                        >SHOP LAYOUTES</a
-                      >
-                      <a class="header__link-hidden-shop" href="#">FULL WIDTH</a>
-                      <a class="header__link-hidden-shop" href="#"
-                        >FULL WIDTH LIST</a
-                      >
-                      <a class="header__link-hidden-shop" href="#"
-                        >RIGHT SIDEBAR</a
-                      >
-                      <a class="header__link-hidden-shop" href="#"
-                        >RIGHT SIDEBAR LIST</a
-                      >
-                      <a class="header__link-hidden-shop" href="#">LIST VIEW</a>
-                    </div>
-                    <div class="header__link-shop">
-                      <a href="#" class="header__link-shop-title"
-                        >SHOP LAYOUTES</a
-                      >
-                      <a class="header__link-hidden-shop" href="#">FULL WIDTH</a>
-                      <a class="header__link-hidden-shop" href="#"
-                        >FULL WIDTH LIST</a
-                      >
-                      <a class="header__link-hidden-shop" href="#"
-                        >RIGHT SIDEBAR</a
-                      >
-                      <a class="header__link-hidden-shop" href="#"
-                        >RIGHT SIDEBAR LIST</a
-                      >
-                      <a class="header__link-hidden-shop" href="#">LIST VIEW</a>
-                    </div>
-                    <div class="header__link-shop">
-                      <a href="#" class="header__link-shop-title"
-                        >SHOP LAYOUTES</a
-                      >
-                      <a class="header__link-hidden-shop" href="#">FULL WIDTH</a>
-                      <a class="header__link-hidden-shop" href="#"
-                        >FULL WIDTH LIST</a
-                      >
-                      <a class="header__link-hidden-shop" href="#"
-                        >RIGHT SIDEBAR</a
-                      >
-                      <a class="header__link-hidden-shop" href="#"
-                        >RIGHT SIDEBAR LIST</a
-                      >
-                      <a class="header__link-hidden-shop" href="#">LIST VIEW</a>
-                    </div>
-                  </div>
-                </li>
-                <li class="header__links-list">
-                  <a class="header__links" href="#"
-                    >BLOG <i class="fa fa-angle-down"></i
-                  ></a>
-                  <ul class="header__links-hidden-wrapper">
-                    <li class="header__link-li">
-                      <a class="header__link-hidden" href="#">BLOG details 1 </a>
-                    </li>
-  
-                    <li class="header__link-li">
-                      <a class="header__link-hidden" href="#">home shop 2 </a>
-                    </li>
-  
-                    <li class="header__link-li">
-                      <a class="header__link-hidden" href="#">home shop 3 </a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="header__links-list">
-                  <a class="header__links" href="#"
-                    >PAGES <i class="fa fa-angle-down"></i>
-                  </a>
-                  <ul class="header__links-hidden-wrapper">
-                    <li class="header__link-li">
-                      <a class="header__link-hidden" href="#"> about us</a>
-                    </li>
-  
-                    <li class="header__link-li">
-                      <a class="header__link-hidden" href="#">servises </a>
-                    </li>
-  
-                    <li class="header__link-li">
-                      <a class="header__link-hidden" href="#">frequently </a>
-                    </li>
-  
-                    <li class="header__link-li">
-                      <a class="header__link-hidden" href="#">contact</a>
-                    </li>
-  
-                    <li class="header__link-li">
-                      <a class="header__link-hidden" href="#">login </a>
-                    </li>
-  
-                    <li class="header__link-li">
-                      <a class="header__link-hidden" href="#">error 404 </a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="header__links-list">
-                  <a class="header__links" href="#">ABOUT US</a>
-                </li>
-                <li class="header__links-list">
-                  <a class="header__links" href="#">CONTACT US</a>
-                </li>
-              </ul>
-              <div class="header__line"></div>
-              <div class="header__shops">
-                <div class="header__search-link" onclick="searchOnclick()">
-                  <img src="../../imgs/icon-search.png" alt="icon-search" />
-                  <div class="header__search-hidden-wrapper">
-                    <div id="header__search-onclick" class="header__search-home">
-                      <input
-                        class="header__search-hidden-input"
-                        type="text"
-                        placeholder="Search entire store here . . ."
-                      />
-                      <button class="header__search-hidden-button">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-                <div class="header__bars-link">
-                  <button id="header__bars-btn" onclick="hideBarsMenu()">
-                    <img src="../../imgs/icon-bars.png" alt="icon-bars" />
-                  </button>
-                  <div
-                    id="header__bars-link-home"
-                    class="header__bars-link-wrapper"
-                  >
-                    <a href="#">MY ACCOUNT</a>
-                    <a href="#">SHOPPING CART</a>
-                    <a href="#">CHECKOUT</a>
-                    <div class="bars__line"></div>
-                    <h4 class="header__bars-title">CURRENCY</h4>
-                    <a href="#">EURO</a>
-                    <a href="#">POUND STERLING</a>
-                    <a href="#">US DOLLAR </a>
-                    <div class="bars__line"></div>
-                    <h4 class="header__bars-title">LANGUAGE</h4>
-                    <a href="#">
-                      <img src="../../imgs/language-Eng.png" alt="language-Eng" />
-                      ENGLISH</a
+      <nav class="nav">
+        <div class="container">
+          <div class="header__wrapper">
+            <a href="#">
+              <img
+                class="header__logo-img"
+                src="../../imgs/header-logo.png"
+                alt="shop-logo"
+              />
+            </a>
+            <ul class="header__links-list-wrapper">
+              <li class="header__links-list">
+                <a class="header__links header__link-home-bc" href="#"
+                  >HOME <i class="fa fa-angle-down"></i>
+                </a>
+                <ul class="header__links-hidden-wrapper">
+                  <li class="header__link-li">
+                    <a class="header__link-hidden" href="#">home shop 1 </a>
+                  </li>
+
+                  <li class="header__link-li">
+                    <a class="header__link-hidden" href="#">home shop 2 </a>
+                  </li>
+
+                  <li class="header__link-li">
+                    <a class="header__link-hidden" href="#">home shop 3 </a>
+                  </li>
+
+                  <li class="header__link-li">
+                    <a class="header__link-hidden" href="#">home shop 4 </a>
+                  </li>
+
+                  <li class="header__link-li">
+                    <a class="header__link-hidden" href="#">home shop 5 </a>
+                  </li>
+
+                  <li class="header__link-li">
+                    <a class="header__link-hidden" href="#">home shop 6 </a>
+                  </li>
+
+                  <li class="header__link-li">
+                    <a class="header__link-hidden" href="#">home shop 7 </a>
+                  </li>
+
+                  <li class="header__link-li">
+                    <a class="header__link-hidden" href="#">home shop 8 </a>
+                  </li>
+                  <li class="header__link-li">
+                    <a class="header__link-hidden" href="#">home shop 9 </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="header__links-list">
+                <a class="header__links" href="#"
+                  >SHOP <i class="fa fa-angle-down"></i>
+                </a>
+                <div
+                  class="header__links-hidden-wrapper header__links-hidden-shop-wrapper"
+                >
+                  <div class="header__link-shop">
+                    <a href="#" class="header__link-shop-title"
+                      >SHOP LAYOUTES</a
                     >
-                    <a href="#"
-                      ><img
-                        src="../../imgs/language-FRANCH.png"
-                        alt="language-FRENCH"
-                      />
-                      FRENCH
-                    </a>
+                    <a class="header__link-hidden-shop" href="#">FULL WIDTH</a>
+                    <a class="header__link-hidden-shop" href="#"
+                      >FULL WIDTH LIST</a
+                    >
+                    <a class="header__link-hidden-shop" href="#"
+                      >RIGHT SIDEBAR</a
+                    >
+                    <a class="header__link-hidden-shop" href="#"
+                      >RIGHT SIDEBAR LIST</a
+                    >
+                    <a class="header__link-hidden-shop" href="#">LIST VIEW</a>
+                  </div>
+                  <div class="header__link-shop">
+                    <a href="#" class="header__link-shop-title"
+                      >SHOP LAYOUTES</a
+                    >
+                    <a class="header__link-hidden-shop" href="#">FULL WIDTH</a>
+                    <a class="header__link-hidden-shop" href="#"
+                      >FULL WIDTH LIST</a
+                    >
+                    <a class="header__link-hidden-shop" href="#"
+                      >RIGHT SIDEBAR</a
+                    >
+                    <a class="header__link-hidden-shop" href="#"
+                      >RIGHT SIDEBAR LIST</a
+                    >
+                    <a class="header__link-hidden-shop" href="#">LIST VIEW</a>
+                  </div>
+                  <div class="header__link-shop">
+                    <a href="#" class="header__link-shop-title"
+                      >SHOP LAYOUTES</a
+                    >
+                    <a class="header__link-hidden-shop" href="#">FULL WIDTH</a>
+                    <a class="header__link-hidden-shop" href="#"
+                      >FULL WIDTH LIST</a
+                    >
+                    <a class="header__link-hidden-shop" href="#"
+                      >RIGHT SIDEBAR</a
+                    >
+                    <a class="header__link-hidden-shop" href="#"
+                      >RIGHT SIDEBAR LIST</a
+                    >
+                    <a class="header__link-hidden-shop" href="#">LIST VIEW</a>
                   </div>
                 </div>
-                <div class="header__shop-link">
+              </li>
+              <li class="header__links-list">
+                <a class="header__links" href="#"
+                  >BLOG <i class="fa fa-angle-down"></i
+                ></a>
+                <ul class="header__links-hidden-wrapper">
+                  <li class="header__link-li">
+                    <a class="header__link-hidden" href="#">BLOG details 1 </a>
+                  </li>
+
+                  <li class="header__link-li">
+                    <a class="header__link-hidden" href="#">home shop 2 </a>
+                  </li>
+
+                  <li class="header__link-li">
+                    <a class="header__link-hidden" href="#">home shop 3 </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="header__links-list">
+                <a class="header__links" href="#"
+                  >PAGES <i class="fa fa-angle-down"></i>
+                </a>
+                <ul class="header__links-hidden-wrapper">
+                  <li class="header__link-li">
+                    <a class="header__link-hidden" href="#"> about us</a>
+                  </li>
+
+                  <li class="header__link-li">
+                    <a class="header__link-hidden" href="#">servises </a>
+                  </li>
+
+                  <li class="header__link-li">
+                    <a class="header__link-hidden" href="#">frequently </a>
+                  </li>
+
+                  <li class="header__link-li">
+                    <a class="header__link-hidden" href="#">contact</a>
+                  </li>
+
+                  <li class="header__link-li">
+                    <a class="header__link-hidden" href="#">login </a>
+                  </li>
+
+                  <li class="header__link-li">
+                    <a class="header__link-hidden" href="#">error 404 </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="header__links-list">
+                <a class="header__links" href="#">ABOUT US</a>
+              </li>
+              <li class="header__links-list">
+                <a class="header__links" href="#">CONTACT US</a>
+              </li>
+            </ul>
+            <div class="header__line"></div>
+            <div class="header__shops">
+              <div class="header__search-link" onclick="searchOnclick()">
+                <img src="../../imgs/icon-search.png" alt="icon-search" />
+                <div class="header__search-hidden-wrapper">
+                  <div id="header__search-onclick" class="header__search-home">
+                    <input
+                      class="header__search-hidden-input"
+                      type="text"
+                      placeholder="Search entire store here . . ."
+                    />
+                    <button class="header__search-hidden-button">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="header__bars-link">
+                <button id="header__bars-btn" onclick="hideBarsMenu()">
+                  <img src="../../imgs/icon-bars.png" alt="icon-bars" />
+                </button>
+                <div
+                  id="header__bars-link-home"
+                  class="header__bars-link-wrapper"
+                >
+                  <a href="#">MY ACCOUNT</a>
+                  <a href="#">SHOPPING CART</a>
+                  <a href="#">CHECKOUT</a>
+                  <div class="bars__line"></div>
+                  <h4 class="header__bars-title">CURRENCY</h4>
+                  <a href="#">EURO</a>
+                  <a href="#">POUND STERLING</a>
+                  <a href="#">US DOLLAR </a>
+                  <div class="bars__line"></div>
+                  <h4 class="header__bars-title">LANGUAGE</h4>
                   <a href="#">
-                    <img src="../../imgs/icon-shop.png" alt="shop-mg" />
+                    <img src="../../imgs/language-Eng.png" alt="language-Eng" />
+                    ENGLISH</a
+                  >
+                  <a href="#"
+                    ><img
+                      src="../../imgs/language-FRANCH.png"
+                      alt="language-FRENCH"
+                    />
+                    FRENCH
                   </a>
                 </div>
               </div>
+              <div class="header__shop-link">
+                <a href="#">
+                  <img src="../../imgs/icon-shop.png" alt="shop-mg" />
+                </a>
+              </div>
             </div>
           </div>
-        </nav>
-      </header>
-  
+        </div>
+      </nav>
+    </header>
+
     <div class="container">
-        <section class="home-page">
-            <div class="main-img__wrapper">
-                <div class="main-img">
-                    <img src="./img/productbig4.webp" alt="">
-                </div>
-               <div class="img-list">
-                <img src="./img/product4.webp" alt="">
-                <img src="./img/productbig1.webp" alt="">
-                <img src="./img/productbig2.webp" alt="">
-                <img src="./img/productbig3.webp" alt="">
-               </div>
-            </div>
-        </section>
+      <section class="home-page">
+        <div class="main-img__wrapper">
+          <div class="main-img">
+            <img src="./img/productbig4.webp" alt="" />
+          </div>
+          <div class="img-list">
+            <img src="./img/product4.webp" alt="" />
+            <img src="./img/productbig1.webp" alt="" />
+            <img src="./img/productbig2.webp" alt="" />
+            <img src="./img/productbig3.webp" alt="" />
+          </div>
+        </div>
+      </section>
     </div>
-</body>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <ul class="footer__list-wrapper footer__list-logo-wrapper">
+            <li>
+              <img src="../../imgs/footer-logo.png" alt="logo" />
+            </li>
+            <li class="footer__text">
+              We are a team of designers and developers that create high quality
+              HTML Template, Woocommerce, Shopify Theme.
+            </li>
+            <li class="footer__text">
+              Address: 49 Park Avenue, East 58st Street, Apt. 50 New York NY
+              10025
+              <span
+                >Email: <a href="#">https://hasthemes.com/contact-us/</a></span
+              >
+              <span>Phone: <a href="#">+1 250 3678 64587</a></span>
+            </li>
+          </ul>
+          <ul class="footer__list-wrapper">
+            <li>
+              <h3 class="footer__list-title">CUSTOMER SERVICE</h3>
+            </li>
+            <li><a href="#">Affiliates</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Delivery Information</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+          </ul>
+          <ul class="footer__list-wrapper">
+            <li>
+              <h3 class="footer__list-title">MY ACCOUNT</h3>
+            </li>
+            <li><a href="#">My Account</a></li>
+            <li><a href="#">Order History</a></li>
+            <li><a href="#">Wish List </a></li>
+            <li><a href="#">Gift Certificates </a></li>
+            <li><a href="#">Returns</a></li>
+          </ul>
+          <ul class="footer__list-wrapper">
+            <li>
+              <h3 class="footer__list-title">NEWSLETTER</h3>
+            </li>
+            <li class="footer__inp-wrapper">
+              <input
+                class="footer__inp-email"
+                type="email"
+                placeholder="Enter you email address"
+              />
+              <a href="#"><i class="fa-solid fa-envelope email__icon"></i></a>
+            </li>
+            <li>
+              <h3 class="">FOLLOW US ON</h3>
+            </li>
+            <li>
+              <div class="footer__link-wrapper">
+                <a class="footer__link" href="#">
+                  <i class="fa-brands fa-facebook-f"></i
+                ></a>
+                <a class="footer__link" href="#">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a class="footer__link" href="#">
+                  <i class="fa-solid fa-wifi"></i>
+                </a>
+                <a class="footer__link" href="#">
+                  <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a class="footer__link" href="#">
+                  <i class="fa-brands fa-google"></i>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__line"></div>
+        <div class="footer__map-wrapper">
+          <div class="footer__map">
+            <a href="#">CONTACT US </a>
+            <a href="#">SITE MAP</a>
+            <a href="#">SPECIALS</a>
+            <a href="#">RETURNS</a>
+          </div>
+        </div>
+        <p class="footer__copyright">
+          Copyright © 2023 <a href="#">Presiden</a> All Right Reserved.
+        </p>
+        <div class="footer__brand-wrapper">
+          <a href="#"><img src="../../imgs/paypal.jpg" alt="money" /> </a>
+          <a href="#"><img src="../../imgs/paypal1.jpg" alt="money" /> </a>
+          <a href="#"><img src="../../imgs/paypal.jpg" alt="money" /> </a>
+          <a href="#"><img src="../../imgs/paypal2.jpg" alt="money" /> </a>
+          <a href="#"><img src="../../imgs/paypal3.jpg" alt="money" /> </a>
+          <a href="#"><img src="../../imgs/paypal.jpg" alt="money" /> </a>
+        </div>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
 </html>
