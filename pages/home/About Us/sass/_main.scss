@@ -112,21 +112,15 @@ grid-template-columns:1fr 1fr 1fr 1fr;
 }
 .stac, .stac1, .stac2, .stac3{
   position: relative;
-  right: 3px;
-  height: 1.3rem;
   background-color: #4b4a4a;
-  border-color: #fff;
-  border-color:none;
-  overflow: hidden;
+  height: 100%;
   gap: 100px;
   color: white;
   gap: 10px;
 }
-.stac{
-  width: 400px;
-}
 .stac1{
-  width: 550px;
+  width: 400px;
+  height: 100%;
 }
 .stac2{
   width: 450px;
@@ -146,10 +140,13 @@ grid-template-columns:1fr 1fr 1fr 1fr;
 }
 .main_statistic_stac1{
   display: flex;
-  
 }
 .mark{
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
  
+}
+.stac__wrapper{
+width: 500px;
+background: #e9ecef;
 }
