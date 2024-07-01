@@ -1,0 +1,57 @@
+@media screen and (max-width: 1225px) {
+   
+     .mark{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+     }
+     
+      };
+  @media screen and (max-width: 1062px) {
+    .mark{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   };
+     
+  };
+  @media screen and (max-width:900px) {
+    .aboutContact{
+   display: block;
+    }
+    input, textarea{
+      display: block;
+      width:100%;
+      border: 1px solid rgb(233, 233, 233);
+    }
+    .borderTop{
+      border-bottom: 1px solid  rgb(233, 233, 233);
+
+      border-width: 100%;
+    }
+    .contactUs{
+      width: 100%;
+    }
+  @media screen and (max-width:886px) {
+    .mark{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+   };
+  
+  };
+  @media screen and (max-width:717px) {
+    .mark{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+   };
+  
+  };
+ 
+    
+    };
+
+  @media screen and (max-width:547px) {
+    .mark{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+   };
+    
+    };

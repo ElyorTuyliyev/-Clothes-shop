@@ -1,0 +1,74 @@
+
+.container {
+    max-width: 1450px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  *{
+    box-sizing: border-box;
+    gap: 0;
+  }
+  p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    unicode-bidi: isolate;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  
+  body{
+    line-height: 24px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    visibility: visible;
+    font-family: "Josefin Sans", sans-serif;
+    color: #252525;
+    letter-spacing: 1px;
+  }
+  .main__header{
+  background-color: #f0f0f0;
+  padding: 12px;
+  }
+  .main__header_p{
+    font-family: "Josefin Sans", sans-serif;
+  }
+  .location{
+    margin-top: 60px;
+  }
+  .location_img{
+    width: 100%;
+  }
+.aboutContact{
+  display: flex;
+  justify-content:start;
+  gap: 50px;
+
+  line-height: 2;
+}
+.tellUs{
+line-height:4;
+}
+input, label, textarea{
+  display: block;
+  width: 300px;
+
+ 
+}
+input, textarea{
+  display: block;
+  width: 300px;
+  border: 1px solid rgb(233, 233, 233);
+}
+.contactUs{
+  width: 50%;
+}
+  .mark{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   
+  }
